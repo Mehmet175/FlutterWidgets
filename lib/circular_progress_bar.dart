@@ -12,7 +12,7 @@ class CircularProgressBar extends StatefulWidget {
 
 class _CircularProgressBarState extends State<CircularProgressBar> {
 
-  double _value = 50;
+  double _value = 0;
 
   @override
   void initState() {

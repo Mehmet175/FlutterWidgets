@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/circular_progress_bar.dart';
+import 'package:widgets/stepper_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CircularProgressBar(),
+      home: const StepperWidget(),
     );
   }
 }
