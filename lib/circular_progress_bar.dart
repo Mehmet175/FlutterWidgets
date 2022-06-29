@@ -31,8 +31,8 @@ class _CircularProgressBarState extends State<CircularProgressBar> {
 
   Widget _getDeterminateProgressBar() {
     return SizedBox(
-      height: 150,
-      width: 150,
+      height: 350,
+      width: 350,
       child: SfRadialGauge(axes: <RadialAxis>[
         RadialAxis(
           startAngle: 270,
